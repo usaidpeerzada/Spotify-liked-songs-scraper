@@ -216,8 +216,6 @@ app.get("/callback", function (req, res) {
           });
         }
         await addMusicToYoutube(songNames);
-        // console.log("song arr -> ", songNames);
-        // we can also pass the token to the browser to make requests from there
         res.redirect(
           "/#" +
             querystring.stringify({
