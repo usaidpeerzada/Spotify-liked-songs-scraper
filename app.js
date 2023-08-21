@@ -197,8 +197,6 @@ app.get("/callback", function (req, res) {
                     );
                     labels[1].click();
                   });
-
-                  // add song
                   await page.click(".ytp-miniplayer-expand-watch-page-button");
 
                   await sleep(2000);
