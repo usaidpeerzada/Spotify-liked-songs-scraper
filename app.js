@@ -204,7 +204,6 @@ app.get("/callback", function (req, res) {
 
                 // await page.close();
                 // await browser.close();
-
                 return resolve(songarr);
               } else {
                 return reject("Ooops!! Playlist not found");
