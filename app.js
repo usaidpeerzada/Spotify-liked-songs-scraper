@@ -201,7 +201,6 @@ app.get("/callback", function (req, res) {
 
                   await sleep(2000);
                 }
-
                 // await page.close();
                 // await browser.close();
                 return resolve(songarr);
